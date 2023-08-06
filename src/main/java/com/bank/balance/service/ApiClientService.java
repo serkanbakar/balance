@@ -1,4 +1,4 @@
-package com.bank.balance.client;
+package com.bank.balance.service;
 
 import com.bank.balance.model.BankTransaction;
 

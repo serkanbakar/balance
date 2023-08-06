@@ -1,4 +1,4 @@
-package com.bank.balance.client;
+package com.bank.balance.service;
 
 import com.bank.balance.model.BankTransaction;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class APIClientServiceImpl implements ApiClientService {
+public class ApiClientServiceImpl implements ApiClientService {
     @Override
     public List<BankTransaction> getTransactionsForCustomer(String customerId) {
         // Dummy transactions

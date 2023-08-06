@@ -1,6 +1,5 @@
 package com.bank.balance.service;
 
-import com.bank.balance.client.ApiClientService;
 import com.bank.balance.model.BankTransaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

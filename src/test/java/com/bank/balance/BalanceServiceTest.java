@@ -1,6 +1,6 @@
 package com.bank.balance;
 
-import com.bank.balance.client.ApiClientService;
+import com.bank.balance.service.ApiClientService;
 import com.bank.balance.model.BankTransaction;
 import com.bank.balance.service.BalanceService;
 
